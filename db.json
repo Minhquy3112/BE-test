@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product A"
+    },
+    {
+      "id": "2",
+      "name": "Product B"
+    },
+    {
+      "id": "3",
+      "name": "Product C"
+    },
+    {
+      "name": "Product mới 1123",
+      "price": 200,
+      "id": "V8VSVDc"
+    }
+  ],
+  "users": [
+    {
+      "email": "hieutm1501@gmail.com",
+      "password": "$2a$10$j3j1L2NambrktHR8it2mFOnNXY2D3YGSlY/gQwpP6oGHoUxfdlCoi",
+      "id": 1
+    }
+  ]
+}
