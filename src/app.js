@@ -10,6 +10,7 @@ import billRouter from"./routes/bill"
 import mongoose from "mongoose";
 import cors from "cors"
 import staticRouter from"./routes/static"
+import routerPayment from "./routes/vnpay";
 
 
 
@@ -28,6 +29,7 @@ app.use("", originRouter);
 app.use("", userRouter);
 app.use("", billRouter);
 app.use("", staticRouter);
+app.use("", routerPayment);
 
 
 mongoose.connect("mongodb://127.0.0.1:27017/duantotnghiep");
